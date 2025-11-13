@@ -44,6 +44,11 @@
                         </g>
                     </svg>
                 </div>
+                
+                <div class="mt-8">
+                    <h1 class="text-6xl font-bold text-gray-900 dark:text-white">SERVEUR 1</h1>
+                    <a href="http://localhost:8081" class="text-blue-600 hover:underline dark:text-gray-400">[ Aller sur le serveur 2 ]</a>
+                </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">

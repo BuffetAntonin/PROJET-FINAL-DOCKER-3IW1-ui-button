@@ -20,7 +20,7 @@ fi
 # Vérifie si le dossier "vendor" (dépendances PHP) existe
 if [ ! -d "vendor" ]; then
   echo "--- [Entrypoint] Installation de Composer (dossier vendor manquant) ---"
-  composer install --no-interaction --no-progress  # Installe les dépendances PHP sans demander d'interaction
+  COMPOSER_PROCESS_TIMEOUT=0 composer install --no-interaction --no-progress  # Installe les dépendances PHP sans demander d'interaction
 else
   echo "--- [Entrypoint] Dossier vendor trouvé, skip composer install ---"
 fi
